@@ -46,6 +46,8 @@ Clic droit une fois : Mettre le cercle en noir, afin de l'ajouter à la liste de
 
 Des problèmes de chemins, pour les fichiers de ressources, posent problèmes lors de la compilation avec Ant
 
+(javafx-sdk-15.0.1 requis projet/LDVEHJAR/lib/javafx-sdk-15.0.1)
+
 De plus, deux versions du projet sont présentes, une version éxécutable par le Main (LDVEH), et l'autre par le .jar et Ant (LDVEHJAR) (Cette dernière n'a pas la fonctionnalité de sauvegarde/restitution)
 
 
