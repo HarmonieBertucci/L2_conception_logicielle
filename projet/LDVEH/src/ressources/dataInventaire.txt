@@ -1,0 +1,6 @@
+Nom de l'objet : Couteau
+Etape d'aquisition : [0,]
+Etape d'utilisation : [5-6,]
+Coord X :113.0
+Coord Y :116.0
+~~~~~~

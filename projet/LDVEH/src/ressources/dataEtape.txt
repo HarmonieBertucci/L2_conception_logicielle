@@ -1,0 +1,141 @@
+Titre du livre :Le pommier
+Numero de l'etape :0
+On est en plein mois d'août, les cigalles chantent, les fourmis travaillent. 
+Et toi, tu es perdu en pleine forêt.
+Tu vois deux chemins, un semblant plus marqué donc plus emprunté et l'autre très léger où tu peux appercevoir les traces de pas d'animaux sauvages.
+Si tu veux continuer sur le chemin principal va à l'etape ${1}, sinon va  à l'etape ${2}.
+
+
+
+
+
+
+µµµµµµµ
+Coord X : 171.8000030517578
+Coord Y : 51.0
+§§§§§§§
+Numero de l'etape :1
+Vous continuez sur le chemin principal, vous arrivez à un croisement : à votre droite au loin un chateau lugubre se dessine, a votre gauche le chemin commence a être en pente.
+Souhautes tu : monter la pente pour prendre de la hauteur (va à l'étape   /!\  ), ou te diriger vers le chateau (va à l'étape ${4}) ?
+
+ 
+Allez à l'etape ${3} pour : 
+
+
+
+
+
+
+µµµµµµµ
+Coord X : 115.80000305175781
+Coord Y : 159.0
+§§§§§§§
+Numero de l'etape :2
+Tu tombe sur une armée de sanglier qui te découpe en rondelle pour te manger.
+La prochaine fois évites les sentiers dangereux !
+Dommage.
+Tu découvrira le pommier une autre fois...
+
+
+
+
+
+ 
+Allez à l'etape ${9} pour : 
+µµµµµµµ
+Coord X : 280.6000061035156
+Coord Y : 239.0
+§§§§§§§
+Numero de l'etape :3
+Tu prend de la hauteur mais c'est de plus en plus compliqué car la pente est de plus en plus raide.
+Veux tu continuer ou rebrousser chemin et aller vers le chateau (étape ${4}) ?
+Allez à l'etape ${5} pour :
+
+ 
+
+
+
+µµµµµµµ
+Coord X : 106.19999694824219
+Coord Y : 223.8000030517578
+§§§§§§§
+Numero de l'etape :4
+bfsdxhbufcun
+
+
+
+
+
+
+µµµµµµµ
+Coord X : 200.60000610351562
+Coord Y : 163.0
+§§§§§§§
+Numero de l'etape :5
+Tu continue a monter et arrive enfin sur une plaine où tu peux voir en plein centre un monticule où git un immense pommier.
+Allez à l'etape  ${6} pour :  cueillir une pomme
+Allez à l'etape ${7} pour :  prendre une feuille
+Allez à l'etape${8} pour :  courir
+
+
+
+
+
+
+µµµµµµµ
+Coord X : 106.0
+Coord Y : 283.0
+§§§§§§§
+Numero de l'etape :6
+Tu manges la pomme qui te confère le savoir. Tu sait alors comment rentrer chez toi, bravo !
+
+ 
+
+
+
+
+µµµµµµµ
+Coord X : 63.0
+Coord Y : 368.0
+§§§§§§§
+Numero de l'etape :7
+La feuille te permet de lire dans le service a thé qui apparait à coté de toi.
+Heureusement que tu as pris divination a Poudlard et que tu es doué dans cette matière.
+Tu connait alors le chemin pour rentrer chez toi, bravo !
+
+
+
+
+
+µµµµµµµ
+Coord X : 153.0
+Coord Y : 372.0
+§§§§§§§
+Numero de l'etape :8
+Tu cours mais tu tombe et tu roule jusqu'au pied de la montagne, tous ces efforts pour rien...
+En regardant autour de toi tu te rend compte que tu es sur le sentier du début où des traces de pas d'animaux sauvages étaient visibles.
+Ne voulant pas tomber nez a nez avec eux tu marches dans un sens.
+
+Allez à l'etape ${2}.
+
+
+
+
+
+
+µµµµµµµ
+Coord X : 196.0
+Coord Y : 285.0
+§§§§§§§
+Numero de l'etape :9
+rijgiofjgilfd
+µµµµµµµ
+Coord X : 316.0
+Coord Y : 345.0
+§§§§§§§
+Premiere Etape :0
+Dernières Etape : 
+6
+7
+~~~~~~~
+~~~~~~~

@@ -1,0 +1,17 @@
+Titre du livre :
+Numero de l'etape :0
+ 
+Allez à l'etape  /!\  pour : 
+µµµµµµµ
+Coord X : 79.8
+Coord Y : 64.6
+§§§§§§§
+Numero de l'etape :1
+ 
+
+µµµµµµµ
+Coord X : 166.2
+Coord Y : 200.6
+§§§§§§§
+~~~~~~~
+~~~~~~~

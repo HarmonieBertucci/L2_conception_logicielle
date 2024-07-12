@@ -1,0 +1,63 @@
+Titre du livre :
+Numero de l'etape :0
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :1
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :2
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :3
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :4
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :5
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :6
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :7
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :8
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+Numero de l'etape :9
+
+µµµµµµµ
+Coord X : 100.0
+Coord Y : 100.0
+§§§§§§§
+~~~~~~~
+~~~~~~~

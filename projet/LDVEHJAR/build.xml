@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project name="LDVEH" default="default" basedir=".">
+
+    <property name="JAVA_HOME" value="C:\Users\ombresabyssals\Documents\jdk-15.0.1_windows-x64_bin\jdk-15.0.1\bin" />
+  <property name="build.src.dir" value="src"/>
+  <property name="build.dist.dir" value="dist"/>
+
+<property name="app.fullname" value="LDVEH"/>
+    <property name="lib.javafx" value="./lib/javafx-sdk-15.0.1/lib"/>
+    <path id="LDVEH.classpath">
+        <pathelement location="${lib.javafx}/javafx.base.jar"/>
+        <pathelement location="${lib.javafx}/javafx.controls.jar"/>
+        <pathelement location="${lib.javafx}/javafx.fxml.jar"/>
+        <pathelement location="${lib.javafx}/javafx.graphics.jar"/>
+        <pathelement location="${lib.javafx}/javafx.media.jar"/>
+        <pathelement location="${lib.javafx}/javafx.swing.jar"/>
+        <pathelement location="${lib.javafx}/javafx.web.jar"/>
+        <pathelement location="${lib.javafx}/javafx-swt.jar"/>
+		</path>
+  <target name="default" depends="clean,compile,javadoc">
+
+
+      <jar jarfile="${build.dist.dir}/${app.fullname}.jar"
+           basedir="${build.dist.dir}">
+          <manifest>
+              <attribute name="Main-Class" value="application.Main"/>
+              <!-- <attribute name="Class-Path" value="xxxxx.jar" /> -->
+          </manifest>
+      </jar>
+
+      
+
+  </target>
+      <target name="javadoc">
+	<javadoc sourcepath="src" destdir="doc">
+		<fileset dir="src" defaultexcludes="yes">
+			<include name="**"/>
+		</fileset>
+	</javadoc>
+  </target>
+
+  <target name="clean">
+
+    <mkdir dir="${build.dist.dir}"/>
+
+    <delete >
+      <fileset dir="${build.dist.dir}" includes="**/*"/>
+
+    </delete>
+
+  </target>
+  
+
+  
+  <target name="compile" depends="clean">
+            <javac debug="true"  destdir="${build.dist.dir}"   >
+            <src path="${build.src.dir}"/>
+            <classpath refid="LDVEH.classpath"/>
+        </javac>
+      <copy todir="${build.dist.dir}/resources">
+          <fileset dir="${build.src.dir}/resources" />
+      </copy>
+  </target>
+
+
+  
+
+</project>

@@ -1,0 +1,38 @@
+Titre du livre :
+Numero de l'etape :0
+etape0
+ 
+Allez à l'etape ${1} pour : 
+µµµµµµµ
+Coord X : 79.8
+Coord Y : 64.6
+§§§§§§§
+Numero de l'etape :1
+ 
+
+µµµµµµµ
+Coord X : 166.2
+Coord Y : 200.6
+§§§§§§§
+Numero de l'etape :2
+
+µµµµµµµ
+Coord X : 71.0
+Coord Y : 199.79999999999998
+§§§§§§§
+Numero de l'etape :3
+
+µµµµµµµ
+Coord X : 103.8
+Coord Y : 238.19999999999996
+§§§§§§§
+Numero de l'etape :4
+
+µµµµµµµ
+Coord X : 59.800000000000004
+Coord Y : 283.8
+§§§§§§§
+Premiere Etape :0
+Dernières Etape : 
+~~~~~~~
+~~~~~~~

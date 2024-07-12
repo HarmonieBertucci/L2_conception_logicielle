@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.Controller">
+   <children>
+      <SplitPane dividerPositions="0.65" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <BorderPane layoutX="71.0" layoutY="75.0" prefHeight="398.0" prefWidth="319.3333333333333" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <bottom>
+                        <AnchorPane prefHeight="25.0" prefWidth="325.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <Button alignment="BOTTOM_RIGHT" contentDisplay="CENTER" layoutX="367.0" layoutY="1.0" mnemonicParsing="false" onAction="#ClearGraph" text="Clear">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="38.0" layoutY="1.0" mnemonicParsing="false" onAction="#Delete" text="Delete" textFill="RED">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="91.0" layoutY="1.0" mnemonicParsing="false" onAction="#Link" prefHeight="25.0" prefWidth="43.0" text="Link" textFill="#18b906">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="134.0" layoutY="1.0" mnemonicParsing="false" onAction="#Delink" prefHeight="25.0" prefWidth="54.0" text="Delink">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="187.0" layoutY="1.0" mnemonicParsing="false" onAction="#Start" prefHeight="25.0" prefWidth="64.0" text="Set start" textFill="#377c75">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="251.0" layoutY="1.0" mnemonicParsing="false" onAction="#End" text="Set end" textFill="#6dcdea">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="310.0" layoutY="1.0" mnemonicParsing="false" onAction="#Path" prefHeight="25.0" prefWidth="43.0" text="Path" textFill="#aa2bd1">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutY="1.0" mnemonicParsing="false" onAction="#Add" text="Add" textFill="#ff7c09">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </bottom>
+                     <center>
+                        <TabPane prefHeight="412.0" prefWidth="412.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                          <tabs>
+                            <Tab onSelectionChanged="#graphSelected" text="Graph Visualisation">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="410.0" prefWidth="412.0">
+                                       <children>
+                                          <ScrollPane layoutX="1.0" prefHeight="424.0" prefWidth="412.0">
+                                             <content>
+                                                <AnchorPane fx:id="GraphVisualisation" prefHeight="2000.0" prefWidth="2000.0" />
+                                             </content>
+                                          </ScrollPane>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab onSelectionChanged="#InventorySelected" text="Inventory Visualisation">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="410.0" prefWidth="412.0">
+                                       <children>
+                                          <ScrollPane  layoutY="1.0" prefHeight="424.0" prefWidth="412.0">
+                                             <content>
+                                                 <AnchorPane fx:id="InventoryVisualisation" prefHeight="2000.0" prefWidth="2000.0" />
+                                             </content>
+                                          </ScrollPane>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                          </tabs>
+                        </TabPane>
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.49159663865546216" layoutX="75.0" layoutY="70.0" orientation="VERTICAL" prefHeight="398.0" prefWidth="273.3333333333333" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <BorderPane layoutX="57.0" layoutY="-19.0" prefHeight="354.0" prefWidth="218.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <top>
+                                    <AnchorPane prefHeight="34.0" prefWidth="271.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <Label layoutX="14.0" layoutY="8.0" prefHeight="17.0" prefWidth="27.0" text="Text" />
+                                          <Button layoutX="177.0" layoutY="4.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+                                          <Button layoutX="131.0" layoutY="4.0" mnemonicParsing="false" onAction="#Show" text="Show" />
+                                          <Button layoutX="83.0" layoutY="4.0" mnemonicParsing="false" onAction="#ClearText" prefHeight="25.0" prefWidth="48.0" text="Reset" />
+                                       </children>
+                                    </AnchorPane>
+                                 </top>
+                                 <center>
+                                    <TextArea fx:id="textarea" prefHeight="225.0" prefWidth="218.0" wrapText="true" BorderPane.alignment="CENTER" />
+                                 </center>
+                              </BorderPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <BorderPane layoutX="36.0" layoutY="-2.0" prefHeight="195.33333333333334" prefWidth="271.3333333333333" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <top>
+                                    <BorderPane prefHeight="10.0" prefWidth="218.0" BorderPane.alignment="CENTER">
+                                       <right>
+                                          <Button mnemonicParsing="false" onAction="#Rename" text="Rename" BorderPane.alignment="CENTER" />
+                                       </right>
+                                       <center>
+                                          <TextField id="TitleArea" fx:id="titleArea" maxWidth="1.7976931348623157E308" onAction="#Rename" promptText="Title :" BorderPane.alignment="CENTER" />
+                                       </center>
+                                    </BorderPane>
+                                 </top>
+                                 <center>
+                                    <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                      <tabs>
+                                        <Tab  text="Rules">
+                                          <content>
+                                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                   <children>
+                                                      <TextArea fx:id="rules" editable="false" prefHeight="184.66666666666666" prefWidth="218.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                   </children>
+                                                </AnchorPane>
+                                          </content>
+                                        </Tab>
+                                        <Tab  text="Informations">
+                                          <content>
+                                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                   <children>
+                                                      <TextArea fx:id="informations" editable="false" prefHeight="184.66666666666666" prefWidth="218.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                   </children>
+                                                </AnchorPane>
+                                          </content>
+                                        </Tab>
+                                      </tabs>
+                                    </TabPane>
+                                 </center>
+                              </BorderPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
