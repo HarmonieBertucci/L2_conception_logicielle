@@ -1,11 +1,13 @@
 # L2_conception_logicielle
 (2021)
 
--------------------- EDITEUR DE LIVRE DONT VOUS ETES LE HEROS -------------------- 
+Université de Caen-Normandie, projet à 4 (J.BIRETTE - H.BERTUCCI - H.PARIS - C.FLAGEUL)
 
----------- Manuel d'utilisation du programme ----------
+# -------------------- EDITEUR DE LIVRE DONT VOUS ETES LE HEROS -------------------- 
 
------- Boutons ------
+# ---------- Manuel d'utilisation du programme ----------
+
+# ------ Boutons ------
 
 Add : Ajouter un cercle-étape sur l'écran.
 
@@ -31,7 +33,8 @@ Show : Entrer dans le mode visualisation du logiciel, avec la pré-visualisation
 
 Rename : Renommer le titre du livre.
 
------- Clic de la souris ------
+# ------ Clic de la souris ------
+
 Tous les cliques ci-dessous sont réalisés sur des cercles-étapes.
 
 Clic gauche une fois : Éditer le paragraphe du cercle-étape sur lequel le clique à été réalisé.
@@ -42,7 +45,7 @@ Clic gauche maintenu : Agripper le cercle afin de le déplacer sur l'écran.
 
 Clic droit une fois : Mettre le cercle en noir, afin de l'ajouter à la liste des cercles à retirer de l'écran.
 
-
+# Autres
 
 Des problèmes de chemins, pour les fichiers de ressources, posent problèmes lors de la compilation avec Ant
 
